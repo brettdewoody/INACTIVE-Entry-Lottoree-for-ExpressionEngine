@@ -1,5 +1,5 @@
-Entry Lottoree allows you to display X random entries from your 
-exp:channel:entries result.
+Entry Lottoree allows you to display random entries from your 
+exp:channel:entries loop.
 
 For example, let's say you want to display a single random entry 
 from your 5 most recent blog articles. Using Entry Lottoree you 
