@@ -136,4 +136,4 @@ class Eehive_entrylottoree_ext {
 }
 // END CLASS
 
-/* End of file ext.eehive_entrylottorree.php */
+/* End of file ext.eehive_entrylottoree.php */
