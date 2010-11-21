@@ -1,20 +1,29 @@
-Entry Lottoree allows you to display X random entries from your exp:channel:entries loop. 
+Entry Lottoree allows you to display X random entries from your 
+exp:channel:entries loop. 
 
-For example, let's say I want to display a single random entry from my 5 most recent blog articles. Using Entry Lottoree you can do this by adding the 'lottoree' parameter to your exp:channel:entries loop, like this:
+For example, let's say I want to display a single random entry 
+from my 5 most recent blog articles. Using Entry Lottoree you 
+can do this by adding the 'lottoree' parameter to your 
+exp:channel:entries loop, like this:
 
 {exp:channel:entries channel="blog" limit="5" lottoree="1"}
   {title}
 {/exp:channel:entries}
 
-This would select a single random article from your five most recent blog entries. 
+This would select a single random article from your five most 
+recent blog entries. 
 
-Want to select two random articles from your five most recent blog entries? Do this:
+Want to select two random articles from your five most recent 
+blog entries? Do this:
 
 {exp:channel:entries channel="blog" limit="5" lottoree="2"}
   {title}
 {/exp:channel:entries}
 
-You can use any of the standard channel entries tag parameters to filter the 'pool' from which the lucky entry is pulled from. For example, if you wanted to display a random article from your Top 5 Most Commented Blog Articles, you could do this:
+You can use any of the standard channel entries tag parameters 
+to filter the 'pool' from which the lucky entry is pulled from. 
+For example, if you wanted to display a random article from your 
+Top 5 Most Commented Blog Articles, you could do this:
 
 {exp:channel:entries channel="blog" limit="5" orderby="comment_total" lottoree="1"}
   {title}
